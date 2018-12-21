@@ -264,6 +264,7 @@ padding-top: 10px;
 #home .btn {
     background: rgba(0,0,0,0.6);
     border: none;
+    font-size: 600 !important;
 }
 #home .btn:hover {
     background: rgba(255,255,255,0.6);
