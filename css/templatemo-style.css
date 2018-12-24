@@ -51,6 +51,9 @@ h4
     border-color: transparent;
 }
 
+.btn-group-lg>.btn, .btn-lg{
+    font-size: 145px;
+}
 /* start overlay */
 .overlay 
     {
