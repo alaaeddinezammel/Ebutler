@@ -178,6 +178,7 @@ position: relative;
         margin-bottom: 0;
         background-color: #fff;
         text-align: right;
+        line-height: 1px;
     }
 .custom-navbar .navbar-brand 
     {
@@ -187,13 +188,34 @@ position: relative;
     }
  .imgNav{
 
-    width: 60px;
+   
     display: inline-block;
-    padding-top: 5px;
-
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 5px;
 
  }   
+
+@media(max-width:500px){
+.imgNav {
+    width: 90px;
+display: inline-block;
+    padding-top: 10px;
+    float: left;
+}
+
+.spanStyle{
+    margin-bottom: 100px !important;
+}
+
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header{
+
+    padding-top: 5px;
+}
+
+
+}
+
 
  .brandimg{
 float: left;
@@ -223,7 +245,7 @@ padding-top: 10px;
 .custom-navbar .navbar-toggle
     {
         border: none;
-        padding-top: 10px;
+        padding-top: 20px;
         padding-right: 30px;
 
     }
