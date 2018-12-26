@@ -194,6 +194,8 @@ position: relative;
 
  }   
 
+ 
+
 @media(max-width:500px){
 .imgNav {
     width: 100px;
@@ -201,6 +203,12 @@ display: inline-block;
     padding-top: 10px;
     float: left;
 }
+.flexslider .slides img{
+padding-top: 300px;
+}
+
+}
+
 
 @media(max-width:400px){
 .imgNav {
@@ -209,8 +217,10 @@ display: inline-block;
     padding-top: 10px;
     float: left;
 }
+.flexslider .slides img{
+padding-top: 300px;
+}
 
-  
 }
 
 @media only screen 
